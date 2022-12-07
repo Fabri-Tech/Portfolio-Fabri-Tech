@@ -1,35 +1,39 @@
-User guide Fabrizio´s portfolio
-Table of contents
+# User guide Fabrizio´s portfolio
 
-    Introduction
-    Requirements
-    Before we get started
-    Personal opinion
-    Credits
+## Table of contents
 
-Introduction
+* [Introduction](#introduction)
+* [Requirements](#requirements)
+* [Before we get started](#before-we-get-started)
+* [Personal opinion](#personal-opinion)
+* [Credits](#credits)
+
+## Introduction
 
 Welcome to my portfolio page, this is the second assigment requested.
-Requirements
 
-    GitHub
+## Requirements
 
-    Your preferred browser
+* GitHub
 
-    VS code
+* Your preferred browser
 
-Before we get started
+* VS code
+
+## Before we get started
 
 Your first step is to make sure that you have installed your VS code, a browser installed and a Git Hub account.
-Personal opinion
+
+## Personal opinion
 
 This is my first assigment, I know that in the future my work will get better.
-Deployed links
 
-    Github repository
+## Deployed links
 
-    Github pages
+* [Github repository](https://github.com/Fabri-Tech/Portfolio-page-Fabrizio-Trevino)
 
-Credits
+* [Github pages]()
 
-🐺🐺 Fabrizio Treviño 🐺🐺
+## Credits
+
+:wolf::wolf: Fabrizio Treviño :wolf::wolf:
