@@ -2,57 +2,152 @@ html {
     box-sizing: border-box;
     font-size: 62.5%; /*1 REM= 10PX */
 }
-* {
-    font-family: 'Roboto', sans-serif;
-}
-body {
-    background-color: antiquewhite;
-
-}
-/* Nav section */
-ul {
-    display: flex;
-    flex-direction: row;
-    flex-flow: nowrap;
-    justify-content: space-between;
-    list-style: none;
-    margin: 0;
-    font-size: 5.5rem;
-     
-    }
-a {
- text-decoration: none;
-}
-
-nav {
-    background-color: blueviolet;
     
+body {
+    background-color: rgb(192, 203, 224)
+
 }
-ul :hover {
-    background-color: black;
-   
-}
 
-/* Body section */
+/* general selectors */
+a {
+	text-decoration: none;
+	
+   }
 
-
-h1 {
+   h1 {
     font-size: 4.5rem;
 	margin: 2.5rem;
+    font-weight: 600;
+	font-family: 'Roboto', sans-serif;
 }
 p {
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	top: 2rem;
-    margin:3rem
+    margin:3rem;
+	font-family: 'Lora', serif;
+	
+    
 }
-.hero-img {
-   
-    background-image: url(./Hero\ banner.jpg);
+
+/* Nav section */
+nav {
+	background: #0099CC;
+	background: linear-gradient(to bottom,  #21C1CC,  #E045FF);
+	color: white;
+	height: 5rem;
+	padding-left: 2rem;
+	
+    }
+
+li {
+	float: left;	
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 0.5rem 2rem;
+	font-size: xx-large;
+	font-family: 'Lora', serif;
+		}
+
+
+
+ul :hover {
+    background-color: 21C1CC;
+		opacity: 0.90;  
+}
+
+/* Hero section */
+
+
+
+#hero-banner {
     height: 25rem;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     position: relative;
+	background-image: url(../Images/hero\ banner.jpg)
+}
+
+.htext {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	}
+   
+/*aside*/
+
+aside {
+    float: right;
+	width: 33rem;
+
+}
+
+
+aside img {
+    background-color: black;
+    width: 27rem;
+    height: 20rem;
+    float: right;
+    margin: 0 0.5rem 2rem 0;
+}
+
+
+    /* Buttons */
+
+.html {
+    box-shadow:inset 0rem 0.1rem 0rem 0rem #f5978e;
+	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+	background-color:#f24537;
+	border-radius:3.3rem;
+	border:0.2rem solid  #d02718;
+	display:inline-block;	
+	color:white;
+	font-family:Arial;
+	font: size 2rem;;
+	font-weight:bold;
+	padding:0.6rem 2.4rem;
+	text-decoration:none;
+	text-shadow:0rem 0.1rem 0rem  #810e05;
+	margin: 0 0 0 6rem;
+}
+
+.css {
+    box-shadow:inset 0rem 0.1rem 0rem 0rem #97c4fe;;;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:3.3rem;
+	border:0.2rem solid #1570cd;
+	display:inline-block;	
+	color:white;
+	font-family:Arial;
+	font: size 2rem;;
+	font-weight:bold;
+	padding:0.6rem 2.4rem;
+	text-decoration:none;
+	text-shadow:0rem 0.1rem 0rem  #1570cd;
+}
+
+.java {
+    box-shadow:inset 0rem 0.1rem 0rem 0rem #f9eca0;;
+	background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+	background-color:#f0c911;
+	border-radius:3.3rem;
+	border:0.2rem solid #e65f44;
+	display:inline-block;
+	color:#c92200;
+	font-family:Arial;
+	font: size 2rem;;
+	font-weight:bold;
+	padding:0.6rem 2.4rem;
+	text-decoration:none;
+	text-shadow:0rem 0.1rem 0rem  #ded17c;   
 }
 
 /* Box section */
@@ -61,27 +156,45 @@ p {
 	display: flex;
 	justify-content: space-between;
 	padding: 0.2rem;
+   
 }
 .box1 {
 	width: calc(90%/6 - .02rem);
 	padding: 0.2rem;
-	background-color: #ccc;
+	margin: 0 0 0 8rem;
+	    
 }
 .box-img {
     justify-content: center;
     display: flex;
-    align-items: center;
-  
+	height: 23rem;
+    width: 20rem;
+	
 }
 
-.box1:hover {
-transform: scale(1.5);
+.box-img:hover {
+transform: scale(1.1);
+
 }
 
-@media screen and (max-width:95rem) {
-    nav p {
-        width:80%
-    }
+.boxtext {
+	background-color: rgb(137, 137, 153);
+	margin: 1.5rem 10rem 0 0rem;
+	text-align: center;
+	padding-bottom: 0.5rem
+	}
+
+/* footer */
+.facebook {
+	font-size: large;
 }
- 
-/* Footer section */
+
+.twitter {
+	font-size: large;
+}
+.instagram {
+	font-size: large;
+}
+.linkedin {
+	font-size: large;
+}
