@@ -56,7 +56,7 @@ li a {
 
 ul :hover {
     background-color: 21C1CC;
-		opacity: 0.90;  
+		opacity: 0.70;  
 }
 
 /* Hero section */
@@ -64,12 +64,13 @@ ul :hover {
 
 
 #hero-banner {
+	background-image: url(../Images/hero\ banner.jpg);
     height: 25rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-	background-image: url(../Images/hero\ banner.jpg)
+		
 }
 
 .htext {
@@ -91,7 +92,6 @@ aside {
 
 
 aside img {
-    background-color: black;
     width: 27rem;
     height: 20rem;
     float: right;
@@ -179,22 +179,14 @@ transform: scale(1.1);
 
 .boxtext {
 	background-color: rgb(137, 137, 153);
-	margin: 1.5rem 10rem 0 0rem;
+	margin: 1.5rem 8rem 0 0rem;
 	text-align: center;
 	padding-bottom: 0.5rem
 	}
 
 /* footer */
-.facebook {
-	font-size: large;
-}
 
-.twitter {
-	font-size: large;
-}
-.instagram {
-	font-size: large;
-}
-.linkedin {
-	font-size: large;
+footer p {
+	font-size: 2rem;
+	line-height: 0.5rem;
 }
